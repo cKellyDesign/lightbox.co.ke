@@ -1,0 +1,80 @@
+.page-contact .wdform-label-section {
+	display: none !important;
+}
+
+.page-contact .wdform_section,
+.page-contact .wdform_column,
+.page-contact .wdform-field,
+.page-contact .wdform_row, 
+.page-contact .wdform-element-section {
+	width: 100% !important;
+	display: block !important;
+}
+
+.page-contact .wdform-field {
+    padding: 9px 0 !important;
+}
+
+.page-contact .wdform-element-section input,
+.page-contact .wdform-element-section textarea {
+	border: 1px solid white !important;
+	background-color: transparent !important;
+	color: white;
+}
+
+.page-contact .wdform-element-section input:focus,
+.page-contact .wdform-element-section textarea:focus {
+	border-color: #ffcc00 !important;
+}
+
+.page-contact  ::-webkit-input-placeholder {
+	color: white !important;
+}
+.page-contact  :-moz-placeholder {
+	color: white !important;
+}
+.page-contact  ::-moz-placeholder {
+	color: white !important;
+}
+.page-contact  :-ms-input-placeholder {
+	color: white !important;
+}
+
+.page-contact .warning {
+  background-color: transparent !important;
+  border: none !important;
+  padding-left: 0 !important;
+}
+
+.page-contact .warning p {
+  color: #ffcc00 !important;
+  font-weight: 100 !important;
+  font-family: Roboto;
+  font-style: italic;
+}
+
+.warning p strong {
+    font-weight: normal;
+}
+
+
+.page-contact .entry {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.page-contact .entry p {
+	color: white;
+	font-size: 14px;
+	margin-bottom: 0;
+}
+
+.page-contact .entry h2 {
+	font-family: Roboto;
+	font-size: 30px;
+	font-style: italic;
+}
+
+#contact_map {
+	margin: 23px 0;
+}

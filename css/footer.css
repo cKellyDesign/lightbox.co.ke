@@ -1,0 +1,134 @@
+/* FOOTER */
+#footer {
+	top: auto !important;
+  height: 0px;
+}
+
+.footer-sidebar, 
+.arrow-down { display: none; }
+
+#footer-bottom {
+ 	background-color: transparent !important;
+}
+
+#footer-bottom .container {
+	padding: 0;
+	border-top: none;
+}
+
+.footer-sidebar { display: none; }
+
+.custom-footer .widget_nav_menu h2 {
+	height: 0;
+	overflow: hidden;
+	color: transparent !important;
+}
+
+.custom-footer {
+	text-align: center;
+	position: relative;
+	border-top: 1px solid #aaaaaa;
+	margin-top: 25px;
+}
+
+.custom-footer.stickyFooter {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
+
+.custom-footer .widget_nav_menu {
+	display: inline-block;
+}
+
+.custom-footer .widget_nav_menu:first-child {
+	display: block;
+	float: left;
+	position: absolute;
+	top: 8px;
+}
+
+.custom-footer .widget_text {
+	display: block;
+	position: absolute;
+	top: 14px;
+	right: 10px;
+
+	font-family: Roboto;
+	font-size: 10px;
+	color: #aaaaaa;
+}
+
+.custom-footer ul.menu {
+	list-style: none;
+}
+
+.custom-footer ul.menu li {
+	display: inline-block;
+	margin: 0 0 4px 10px;
+}
+
+.custom-footer .widget_nav_menu:first-child li a {
+	border-right: 1px solid #aaaaaa;
+}
+
+.custom-footer .widget_nav_menu:first-child li a:hover {
+	color: #ffcc00 !important;
+}
+
+.custom-footer .widget_nav_menu:first-child li:last-child a {
+	border-right: none;
+}
+
+.custom-footer ul.menu li a {
+	font-family: Roboto;
+	font-size: 10px;
+	color: #aaaaaa;
+	padding-right: 10px;
+	display: block;
+	height: 100%;
+}
+
+.footer_youtube_icon {
+	background: no-repeat center center url('http://localhost/lightbox.co.ke/wp-content/uploads/2016/06/youtube-icon-14.svg');
+	background: no-repeat center center url('http://redesign.lightbox.co.ke/wp-content/uploads/2016/07/youtube-icon-14.svg');
+}
+
+.footer_vimeo_icon {
+	background: no-repeat center center url('http://localhost/lightbox.co.ke/wp-content/uploads/2016/06/vimeo-icon-14.svg');
+	background: no-repeat center center url('http://redesign.lightbox.co.ke/wp-content/uploads/2016/07/vimeo-icon-14.svg');
+}
+
+.footer_facebook_icon {
+	background: no-repeat center center url('http://localhost/lightbox.co.ke/wp-content/uploads/2016/06/facebook-icon-14.svg');
+	background: no-repeat center center url('http://redesign.lightbox.co.ke/wp-content/uploads/2016/07/facebook-icon-14.svg');
+}
+
+.footer_twitter_icon {
+	background: no-repeat center center url('http://localhost/lightbox.co.ke/wp-content/uploads/2016/06/twitter-icon-14.svg');
+	background: no-repeat center center url('http://redesign.lightbox.co.ke/wp-content/uploads/2016/07/twitter-icon-14.svg');
+}
+
+.footer_rss_icon {
+	background: no-repeat center center url('http://localhost/lightbox.co.ke/wp-content/uploads/2016/06/rss-icon-14.svg');
+	background: no-repeat center center url('http://redesign.lightbox.co.ke/wp-content/uploads/2016/07/rss-icon-14.svg');
+}
+
+.custom-footer ul.menu .footer_social {
+	height: 25px;
+	width: 25px;
+	margin: 8px 5px 3px;
+	line-height: 0;
+	background-position: 0% 0%;
+	overflow: hidden;
+}
+
+.footer_social a,
+.footer_social a:hover {
+		color: transparent !important;
+}
+
+.custom-footer ul.menu  .footer_social:hover {
+	background-position: 100% 0%;
+	cursor: pointer;
+}

@@ -1,0 +1,397 @@
+/* Members Page */
+#buddypress {
+	color: white;
+}
+
+#buddypress a {
+	color: #aaa !important;
+}
+
+#buddypress a:hover,
+#buddypress a:focus {
+	color: #ffcc00 !important;
+}
+
+/* Profile Page Avatar */
+body.page-login .page-header,
+body.buddypress .page-header {
+	position: relative;
+  height: auto !important;
+  color: white !important;
+  line-height: 1;
+  min-height: auto;
+}
+
+#item-header {
+	float: left;
+}
+
+#item-header-avatar {
+	float: left !important;
+}
+
+#item-header-avatar a {
+	display: block !important;
+	margin: 0 15px 5px 0 !important;
+	line-height: 0;
+	box-shadow: 0 0 0px 1px #fff, 5px 5px 5px rgba(0,0,0,.67);
+}
+
+#item-header-avatar a:hover {
+	box-shadow: 0 0 0px 1px #ffcc00, 5px 5px 5px rgba(0,0,0,.67);
+}
+
+#item-header-avatar img {
+	float: none !important;
+	margin: 0 !important;
+}
+
+#item-header-content {
+	clear: both;
+	max-width: 150px;
+}
+
+#item-header-content .activity {
+	color: white;
+	text-transform: capitalize;
+}
+
+/* Profile Subnavigation */
+
+#item-nav,
+#subnav {
+	display: none;
+}
+
+body.logged-in #item-nav,
+body.logged-in #subnav {
+	display: block;
+}
+
+#buddypress #item-nav {
+	float: left;
+	height: 0;
+}
+
+#item-body {
+	float: left;
+	width: 50%;
+  width: calc(100% - 165px);
+}
+
+.item-list-tabs#subnav {
+	margin-top: 0 !important;
+	margin-left: 10px !important;
+	float: right;
+}
+
+.bp-widget.base > h4 {
+	display: none;
+}
+
+#buddypress div.item-list-tabs#object-nav ul li {
+	margin-right: 5px;
+}
+
+#buddypress div.item-list-tabs#subnav ul li.current,
+#buddypress div.item-list-tabs#subnav ul li.selected {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#buddypress div.item-list-tabs ul li a {
+	color: white;
+	font-family: Roboto;
+}
+
+#buddypress div.item-list-tabs ul li a:hover {
+	background-color: white;
+	color: #333 !important;
+}
+
+#buddypress div.item-list-tabs ul li.current a,
+#buddypress div.item-list-tabs ul li.current a:hover, 
+#buddypress div.item-list-tabs ul li.selected a,
+#buddypress div.item-list-tabs ul li.selected a:hover {
+	background-color: #ffcc00 !important;
+	color: #333 !important;
+}
+
+/* Profile Sub Pages */
+
+.profile table {
+	margin-bottom: 48px !important;
+}
+
+.profile table tr {
+	
+}
+
+.profile table td {
+	background-color: transparent !important;
+	border: none !important;
+	color: white;
+}
+
+.profile table td.label {
+  text-align: right;
+  width: 15% !important;
+  vertical-align: top !important;
+  white-space: nowrap;
+}
+
+.profile table td a {
+	color: white !important;
+}
+
+.profile table td a:hover {
+	color: #ffcc00 !important;
+}
+
+#settings-form table thead {
+	display: none;
+}
+
+#settings-form table tr {
+	border-bottom: 1px solid white;
+}
+#settings-form table tr td {
+	padding-left: 10px !important;
+}
+#settings-form table tr td.field-visibility {
+	text-align: right;
+}
+
+body.logged-in #item-body .profile {
+	padding-top: 48px;
+}
+
+#account-capabilities-form,
+#settings-form {
+	margin-top: 48px !important;
+}
+
+#item-body form {
+	margin: 0 0 48px 0;
+	color: white;
+}
+
+#signup_form input:focus,
+#item-body form input:focus {
+	outline-color: #ffcc00;
+}
+
+fieldset label {
+    color: white !important;
+}
+
+/* Submit Buttons */
+#bp-delete-avatar-container > p:first-child,
+#item-body form label,
+#item-body form legend,
+#activate-page {
+	color: white;
+}
+
+#bp-delete-avatar,
+#bp-browse-button,
+.avatar-crop-submit,
+#signup_submit,
+#activation-form p.submit input,
+#item-body form .submit input,
+#login .log-form-group input[type="submit"] {
+	border: none !important;
+	color: #333 !important;
+	font-family: Roboto;
+	font-size: 18px !important;
+	cursor: pointer;
+}
+
+#bp-delete-avatar:hover,
+#bp-browse-button:hover,
+.avatar-crop-submit:hover,
+#signup_submit:hover,
+#activation-form p.submit input:hover,
+#item-body form .submit input:hover,
+#login .log-form-group input[type="submit"]:hover {
+	background-color: #ffcc00 !important;
+	color: #333 !important;
+}
+
+#item-body form .submit input[disabled],
+#item-body form .submit input[disabled]:hover {
+	background-color: #fff !important;
+	opacity: .4;
+	cursor: default;
+}
+
+#item-body .profile > p {
+	color: white;
+}
+
+#activate-page a,
+#item-body .profile > p a {
+	color: #aaa;
+}
+
+#activate-page a:hover,
+#item-body .profile > p a:hover,
+.visibility-toggle-link:hover,
+.field-visibility-settings-close:hover {
+	color: #ffcc00 !important;
+}
+
+
+.avatar-nav-items {
+	padding-left: 0 !important;
+	border-bottom-color: white !important;
+}
+
+.avatar-nav-items li {
+	border: 1px solid transparent !important;
+	margin-right: 15px !important;
+}
+
+.avatar-nav-items li.current {
+	border-radius: 0 !important;
+	border-color: white white transparent white !important;
+}
+
+.avatar-nav-items li:hover {
+	border-color: #ffcc00 #ffcc00 transparent #ffcc00 !important;
+}
+
+.avatar-nav-items li a {
+	color: white !important;
+	font-weight: normal !important;
+}
+
+.avatar-nav-items li:hover a {
+	color: #ffcc00 !important;
+}
+
+.bp-avatar-status {
+  margin-top: 30px !important;
+}
+
+.bp-template-notice {
+	max-width: 150px;
+}
+
+body.activation .bp-template-notice {
+	max-width: none;
+	display: inline-block;
+}
+
+/* Buddypress notification boxes */
+#buddypress form .error,
+.bp-avatar-status .warning,
+.bp-template-notice.updated p,
+#bp-avatar-feedback {
+	/*display: inline !important;*/
+	background-color: #ffcc00 !important;
+	color: #333 !important;
+	border: none !important;
+}
+
+body.activation .bp-template-notice.error p,
+#item-body #message.info p {
+  display: inline-block !important;
+  background-color: #cc3399 !important;
+  border: none !important;
+  color: #333 !important;
+  font-size: 15px !important;
+  font-family: Roboto;
+}
+
+
+/* REGISTRATION PAGES */
+
+#register-page {
+	color: white;
+}
+
+body.registration #content {
+	margin-bottom: 48px;
+}
+
+/* Profile Videos */
+hr.profile_videos {
+	color: white;
+}
+
+.profile_videos_header_container {
+	display: block;
+	position: relative;
+	top: -26px;
+	text-align: center;
+}
+
+.profile_videos_header {
+	display: inline-block;
+  background: #333333;
+  padding: 0 8px;
+  font-family: Roboto !important;
+  font-weight: bold;
+}
+
+
+/* LOGIN PAGE */
+form#login,
+body.page-login .logged-in {
+	color: white;
+}
+
+body.page-login .logged-in a {
+	color: #aaa !important;
+}
+
+body.page-login .logged-in a:hover {
+	color: #ffcc00 !important;
+}
+
+#login input[type="text"], 
+#login input[type="password"] {
+  clear: both;
+  display: block;
+  margin-bottom: 20px;
+  border: 1px solid white !important;
+	background-color: transparent !important;
+	padding: 2px 6px 4px;
+
+	color: white;
+	font-family: Roboto;
+	font-size: 16px;
+	font-style: italic;
+}
+
+#login input[type="text"]:active, 
+#login input[type="password"]:active,
+#login input[type="text"]:focus, 
+#login input[type="password"]:focus {
+	outline-color: transparent;
+	border-color: #ffcc00;
+}
+
+.error_wid_login {
+  background-color: #ffcc00 !important;
+  border: none !important;
+  padding: 15px 20px 15px 15px !important;
+  color: #333 !important;
+  margin: 0 0 15px !important;
+  width: auto !important;
+  display: inline-block !important;
+}
+
+.error_wid_login a {
+    color: #333 !important;
+}
+
+.error_wid_login a:hover {
+    color: #000 !important;
+    text-decoration: underline;
+}
+
+.error_wid_login a.close_button_afo {
+	display: none;
+}

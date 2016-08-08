@@ -1,0 +1,138 @@
+/* HEADER */
+#header {
+	height: 60px;
+}
+
+#header > .container {
+	text-align: right;
+	height: 60px;
+}
+
+#header::after {
+	content: '';
+	position: absolute;
+	height: 18px;
+	left: 0;
+	right: 0;
+	background: url('http://redesign.lightbox.co.ke/wp-content/uploads/2016/07/Header_Drop_Shadow-13.png') top left repeat-x;
+}
+
+
+#logo,
+.phone #logo,
+.tablet #logo {
+	margin: 12px 0 3px;
+	float: left;
+	text-align: left;
+}
+
+.tablet #logo,
+.phone #logo {
+	padding-left: 3px;
+}
+
+.sticky_menu #logo {
+	bottom: 0 !important;
+}
+
+#logo img {
+	max-width: none;
+	max-height: 40px;
+}
+
+.sticky_menu #logo img {
+	display: block;
+	
+}
+
+#header .phone-menu-block,
+body.tablet .phone-menu-block {
+	margin-top: 7px !important;
+	line-height: 15px;
+	width: auto;
+}
+
+.page-contact .phone-menu-block .lavalamp-object,
+.attachment .phone-menu-block .lavalamp-object,
+.xprofile .phone-menu-block .lavalamp-object,
+.page-login .phone-menu-block .lavalamp-object,
+.page-registration .phone-menu-block .lavalamp-object,
+body.members .phone-menu-block .lavalamp-object {
+	opacity: 0;
+}
+
+.phone-menu-block:hover .lavalamp-object {
+	opacity: 1;
+}
+
+#header .sticky_menu .phone-menu-block {
+	margin-top: 0;
+}
+
+body.phone .phone-menu-block {
+	width: 100px !important;
+
+}
+
+body.phone #menu-button-block {
+	height: auto;
+	background-size: 20%;
+  background-position-x: 90%;
+  background-position-y: 55%;
+}
+
+body.phone #menu-button-block > a {
+	font-size: 14px;
+	height: auto;
+	padding: 14px;
+}
+
+body.phone #top-nav-list {
+	background-color: #fff;
+}
+
+body.phone #top-nav-list .menu-item {
+	transition: none;
+}
+body.phone #top-nav-list .menu-item a {
+	display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px 0 !important;
+  transition: none;
+}
+
+body.phone #top-nav-list .menu-item:hover,
+body.phone #top-nav-list .menu-item:active,
+body.phone #top-nav-list .menu-item:focus {
+	background-color: #ffcc00 !important;
+}
+
+body.phone #top-nav-list .menu-item:hover a,
+body.phone #top-nav-list .menu-item:active a,
+body.phone #top-nav-list .menu-item:focus a {
+	color: white !important;
+	background-color: transparent !important;
+}
+
+#top-nav li a,
+.tablet #top-nav li a  {
+	font-family: Roboto !important;
+	font-size: 16px;
+	color: #333333 !important;
+	padding-left: 17px !important;
+  padding-bottom: 12px !important;
+  margin-right: 1px;
+  min-height: 0;
+}
+
+#search-block {
+	margin-top: 0;
+	display: none;
+}
+
+#top-nav-list li:last-child a {
+	padding-right: 0;
+	margin-right: 0;
+}

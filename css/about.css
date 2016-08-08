@@ -1,0 +1,118 @@
+.page-header {
+  height: 0 !important;
+  display: block !important;
+  position: fixed;
+  overflow: hidden !important;
+  top: 0;
+  color: transparent !important;
+}
+
+.advps-slide-container {
+  padding-top: 20px;
+  overflow: initial !important;
+}
+
+[class~="advps-slide-field-"],
+.advps-slide > div {
+	width: 100%;
+	height: 100%;
+}
+
+.advps-slide > div a {
+	cursor: default;
+}
+
+.advps-slide img {
+	opacity: 0;
+}
+
+.advps-slide.ready img {
+	opacity: 100;
+}
+
+.advs-title {
+	position: absolute;
+	display: 	block;	
+	height: 0;
+	overflow: hidden;
+}
+
+.bx-wrapper {
+	overflow: hidden;
+	margin-bottom: 0px;
+	box-shadow: 0 0 0px 1px #fff, 5px 5px 5px rgba(0,0,0,.67);
+}
+
+.bx-viewport,
+.bx-viewport > div {
+	height: 100% !important;
+}
+
+.bx-viewport .advps-slide.ready {
+	top: 0;
+	bottom: 0;
+	z-index: 3 !important;
+}
+
+.advps-slide-container .wp-post-image {
+	position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+[class^="advps-excerpt"] {
+	width: 	50%;
+	position: absolute !important;
+	bottom: 20px;
+	left: 20px;
+}
+
+
+[class^="advps-excerpt"] .wp-video {
+	position: relative;
+	left: -20px;
+	bottom: -20px;
+}
+
+[class^="advps-excerpt"] h1,
+[class^="advps-excerpt"] h2,
+[class^="advps-excerpt"] h3,
+[class^="advps-excerpt"] h4,
+[class^="advps-excerpt"] h5,
+[class^="advps-excerpt"] h6,
+[class^="advps-excerpt"] p {
+	color: #fff;
+	text-shadow: 1px 1px #000;
+}
+
+#bx-pager {
+	position: relative !important;	
+  margin: 36px 0;
+  text-align: left;
+}
+
+[id^="advps_container"] #bx-pager a img, 
+[id^="advps_container"] #bx-pager a.active img {
+	border: none !important;
+	margin: 0 15px 0 0 !important;
+	padding: 0 !important;
+	box-shadow: 0 0 0px 1px #fff, 5px 5px 5px rgba(0,0,0,.67);
+}
+
+[id^="advps_container"] #bx-pager a:hover img {
+	border: none !important;
+	margin: 0 15px 0 0 !important;
+	padding: 0 !important;
+	box-shadow: 0 0 0px 1px #ffcc00, 5px 5px 5px rgba(0,0,0,.67);
+}
+
+[id^="advps_container"] #bx-pager a:last-child img, 
+[id^="advps_container"] #bx-pager a.active:last-child img,
+[id^="advps_container"] #bx-pager a:hover:last-child img {
+		margin-right: 0 !important;
+}
+
+.single-post .entry {
+	margin: 0;
+}

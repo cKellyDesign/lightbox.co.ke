@@ -1,0 +1,180 @@
+/*
+	Theme Name: Sauron Child
+	Description: This theme is used to manipulate the Sauron Theme
+	Author: Conor Kelly
+	Template: sauron
+	Version: 0.1
+
+*/
+
+/* IMPORTS */
+@import './css/font_face.css';
+@import './css/columns.css';
+@import './css/header.css';
+@import './css/footer.css';
+@import './css/about.css';
+@import './css/videos.css';
+@import './css/canonic.css';
+@import './css/contact.css';
+@import './css/profile.css';
+
+/* FONT OVERRIDES */
+h1, h2, h3, h4, h5, h6 {
+	font-family: Roboto !important;
+	color: white !important;
+}
+
+
+
+/* HOME */
+.blog-post.home-post .title_href {
+	height: 0;
+  display: block;
+  overflow: hidden;
+  margin-bottom: 18px;
+}
+
+.blog-post.home-post {
+	padding-bottom: 0;
+}
+
+/* slider */
+.metaslider {
+  box-shadow: 0 0 0px 1px #fff, 5px 5px 5px rgba(0,0,0,.67);
+}
+
+.flex-control-nav {
+	bottom: 0 !important;
+  
+  z-index: 10;
+  text-align: right !important;
+  color: transparent;
+  right: 15px !important;
+  height: 32px;
+}
+
+.flex-control-paging li a {
+	background-color: #ffffff !important;
+	border-radius: 0 !important;
+	box-shadow: none !important;
+}
+
+.flex-control-paging li a:hover {
+	color: transparent !important;
+}
+
+.flex-control-paging li a.flex-active {
+	background-color: #ffee00 !important;
+}
+
+.metaslider-flex .flexslider {
+	margin-bottom: 0;
+}
+
+.caption-wrap {
+  height: 25%;
+  background: none !important;
+  opacity: 1 !important;
+  text-shadow: 1px 1px #000;
+}
+
+body.tablet .caption-wrap,
+body.phone .caption-wrap {
+	top: 0;
+}
+
+.caption-wrap .caption {
+	display: block;
+	font-size: 16px;
+	padding-left: 24px !important;
+}
+
+body.phone .caption,
+body.phone .caption {
+	font-size: 14px;
+}
+
+.caption-wrap .caption h4 {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 40px;
+  text-indent: -1px;
+}
+
+body.phone .caption h4,
+body.phone .caption h4 {
+	font-size: 30px;
+	line-height: 24px;
+}
+
+
+.content-column .wp-caption {
+	line-height: 0;
+	margin: 0;
+  padding: 0;
+	background: transparent;
+  border: none;
+  border-radius: 0;
+  position: relative;
+  max-width: 100%;
+  box-shadow: 0 0 0px 1px #fff, 5px 5px 5px rgba(0,0,0,.67);
+}
+
+.content-column .wp-caption:hover {
+  box-shadow: 0 0 0px 1px #ffcc00, 5px 5px 5px rgba(0,0,0,.67);
+}
+
+.content-column .wp-caption a {
+	display: block;
+}
+
+.content-column .wp-caption img {
+	margin: 0;
+}
+
+.caption_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.caption_wrapper:hover p {
+	color: #ffcc00;
+	font-weight: bold;
+}
+
+.content-column .wp-caption-text {
+	padding: 0 !important;
+
+	font-family: Roboto;
+	font-size: 16px !important;
+	text-align: center;
+	color: #fff;
+	text-shadow: 1px 1px #000;
+}
+
+body.tablet .content-column .wp-caption-text,
+body.phone .content-column .wp-caption-text {
+	font-size: 14px !important;
+}
+
+#sidebar1, #sidebar2 {
+	background-color: transparent !important;
+}
+
+.searchandfilter label {
+	color: #ffffff !important;
+}
+
+.searchandfilter h4 {
+	display: block;
+	font-family: Roboto;
+	font-weight: bold;
+}
+
+/* SHAME */
