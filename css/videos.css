@@ -120,6 +120,13 @@ input[type="radio"]:checked::before {
 	box-shadow: 0 0 0px 1px #fff, 5px 5px 5px rgba(0,0,0,.67);
 }
 
+@media screen and (max-width: 400px) {
+	.video-thumnails {
+		width: 100%;
+		margin-right: 0;
+	}
+}
+
 .video-thumnails:hover {
 	box-shadow: 0 0 0px 1px #ffcc00, 5px 5px 5px rgba(0,0,0,.67);
 }

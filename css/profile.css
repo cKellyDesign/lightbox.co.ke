@@ -395,3 +395,9 @@ body.page-login .logged-in a:hover {
 .error_wid_login a.close_button_afo {
 	display: none;
 }
+
+@media screen and (max-width: 500px) {
+	#item-body {
+		width: 100% !important;
+	}
+}

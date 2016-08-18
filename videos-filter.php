@@ -8,7 +8,6 @@
 
  	$cats = $section . ',' . $categories . ',' . $tags;
 
- 	echo $cats;
  	$args = array(
       'post_type' => 'attachment',
       'post_mime_type' =>'video',
@@ -34,7 +33,6 @@
 		$title = get_the_title($id);
 		$video_meta = wp_get_attachment_metadata($id);
 
-		// print_r($vid);
 
 		if ( $thumb ) { ?>
 			<div class="video-thumnails">

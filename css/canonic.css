@@ -223,6 +223,13 @@ body.playing .thumbs-rating-container:hover {
 	transition: opacity .25s;
 }
 
+@media screen and (max-width: 360px) {
+	.mejs-overlay-button {
+		height: 75% !important;
+		top: 60% !important;
+	}
+}
+
 .mejs-overlay-button:hover {
 	opacity: .9;
 }
@@ -298,6 +305,13 @@ body.playing .thumbs-rating-container:hover {
 .related-videos .video-thumnails {
 	width: 24%;
 	margin-right: 1.25%;
+}
+
+@media screen and (max-width: 360px) {
+	.related-videos .video-thumnails {
+		width: 100%;
+		margin-right: 0;
+	}
 }
 
 .related-videos .video-thumnails:nth-child(4n) {

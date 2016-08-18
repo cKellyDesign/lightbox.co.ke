@@ -9,6 +9,7 @@
 
 #footer-bottom {
  	background-color: transparent !important;
+ 	border-top: none !important;
 }
 
 #footer-bottom .container {
@@ -131,4 +132,14 @@
 .custom-footer ul.menu  .footer_social:hover {
 	background-position: 100% 0%;
 	cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+	.custom-footer > div {
+		float: none !important;
+    position: relative !important;
+    right: auto !important;
+    top: auto !important;
+    margin-top: 5px;
+	}
 }

@@ -78,3 +78,16 @@
 #contact_map {
 	margin: 23px 0;
 }
+
+@media screen and (max-width: 600px) {
+	.page-contact .content-column {
+    width: 100% !important;
+    margin-bottom: 0;
+	}
+
+	.page-contact .content-column:first-child {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 18px;
+    padding-bottom: 21px;
+	}
+}

@@ -40,6 +40,16 @@
 	max-height: 40px;
 }
 
+.phone #logo img {
+	max-width: 160px !important;
+}
+
+@media screen and (max-width: 360px) {
+	.phone #logo img {
+		max-width: 100% !important;
+	}
+}
+
 .sticky_menu #logo img {
 	display: block;
 	
@@ -129,7 +139,7 @@ body.phone #top-nav-list .menu-item:focus a {
 
 #search-block {
 	margin-top: 0;
-	display: none;
+	display: none !important;
 }
 
 #top-nav-list li:last-child a {
